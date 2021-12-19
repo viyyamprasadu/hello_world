@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "function_call.h"
 
-int do_math(int x, int y, char ch)
+int do_math(int x, int y, char ch);
 {
     if(ch == '+') return x+y;
     if(ch == '-') return x-y;
