@@ -18,3 +18,8 @@ void display_List(struct Node *head,int n)
 	if(n >0)
 		display_List(head+i,n);
 }
+
+void print(char *name)
+{
+	printf("This is printing : %s",name)
+}

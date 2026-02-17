@@ -61,5 +61,6 @@ int main()
     node3->next = node1;
     printf(" node1->data = %d, node2->data = %d , node3->data = %d \n",node1->data,node2->data,node3->data);
     printf(" node1->next = %p, node2->next = %p , node3->next = %p , node1 = %p \n",node1->next,node2->next,node2->next->next,node1);
+    print("VIYYAM");
     return 0;
 }

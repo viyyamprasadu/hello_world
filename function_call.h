@@ -8,3 +8,4 @@ typedef struct Node
 
 int do_math(int , int, char);
 void display_List(struct Node *,int);
+void print(char *);
